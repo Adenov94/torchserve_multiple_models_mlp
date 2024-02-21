@@ -2,8 +2,8 @@
 # curl http://127.0.0.1:8080/wfpredict/seq_mlp -T /home/adil/Downloads/123.jpg
 
 curl -X POST http://localhost:8080/wfpredict/seq_mlp \
-     -F  data1='@/home/adil/Downloads/123.jpg' \
-     -F data2='@/home/adil/Downloads/crop_12.jpg'
+     -F  data1='@./test_images/IMG_0520.JPG' \
+     -F data2='@./test_images/sample_1.jpg'
 
 # curl -X POST http://localhost:8080/predictions/test_mlp  -F  data='@/home/adil/Downloads/123.jpg' & \
 # curl -X POST http://localhost:8080/predictions/test_mlp  -F data='@/home/adil/Downloads/crop_12.jpg'
