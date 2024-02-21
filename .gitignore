@@ -1,0 +1,6 @@
+# directories
+/logs
+
+# All jupyter notebooks
+*.ipynb
+.DS_Store
