@@ -17,4 +17,3 @@ fi
 
 # prevent docker exit
 tail -f /dev/null
-де
