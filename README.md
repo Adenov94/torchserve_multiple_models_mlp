@@ -12,5 +12,4 @@
 
 
 ## Running on GPU 
-- need to change base image in Dockerfile 
-- Install all cuda drivers inside Docker  
+- Build using Dockerfile.gpu (inside some minor changes for GPU)
